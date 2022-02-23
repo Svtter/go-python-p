@@ -27,12 +27,14 @@ type Response struct {
 }
 
 //export parseJSON
-func parseJSON(a []byte) string {
+func parseJSON(a *C.char) *C.char {
+	temp := C.GoString(a)
 	var r Response
-	if err := json.Unmarshal(a, &r); err != nil {
+	b := []byte(temp)
+	if err := json.Unmarshal(b, &r); err != nil {
 		fmt.Printf("meet error: %s\n", err.Error())
 	}
-	return r.Msg
+	return C.CString(r.Msg)
 }
 
 // go build -buildmode=c-shared -o demo.so shared.go
