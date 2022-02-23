@@ -1,4 +1,13 @@
 libdemo.h
 libdemo.so
 
+.pdm.toml
 main_from_c
+
+__pypackages__
+
+.venv
+
+__pycache__
+
+*.pyc

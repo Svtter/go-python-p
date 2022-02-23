@@ -10,3 +10,6 @@ cclean:
 
 crun: cbuild
 	./main_from_c
+
+pybuild:
+	python setup.py build_ext --inplace
