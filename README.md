@@ -6,4 +6,5 @@
 
 ## Reference
 
-1. https://docs.python.org/3/library/ctypes.html
+1. [Python ctypes](https://docs.python.org/3/library/ctypes.html)
+2. [Go-Python](https://blog.51cto.com/u_15127567/3985875#:~:text=%E8%BD%ACpython%E8%B0%83%E7%94%A8Go%E4%BB%A3%E7%A0%81%20Go%201.5%E5%8F%91%E5%B8%83%E4%BA%86%EF%BC%8C%E5%85%B6%E4%B8%AD%E5%8C%85%E5%90%AB%E4%BA%86%E4%B8%80%E4%B8%AA%E7%89%B9%E6%80%A7%EF%BC%9A%E5%8F%AF%E4%BB%A5%E7%BC%96%E8%AF%91%E7%94%9F%E6%88%90%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93%EF%BC%8C%E7%BB%8F%E8%AF%95%E9%AA%8C%EF%BC%8C%E7%94%9F%E6%88%90%E7%9A%84.so%E6%96%87%E4%BB%B6%E5%8F%AF%E4%BB%A5%E8%A2%ABpython%E5%8A%A0%E8%BD%BD%E5%B9%B6%E8%B0%83%E7%94%A8%E3%80%82%20%E4%B8%8B%E9%9D%A2%E4%B8%BE%E4%B8%AA%E4%BE%8B%E5%AD%90%EF%BC%9A%20%E5%85%88%E5%86%99%E4%B8%80%E4%B8%AAgo%E6%96%87%E4%BB%B6main.go%EF%BC%9A%20package%20main%20import,%22C%22%20%2F%2Fexport%20Sum%20func%20Sum%20%28a%2C%20b%20int%29)
