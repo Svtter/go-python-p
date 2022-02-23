@@ -3,13 +3,9 @@
 #include "libdemo.h"
 
 int main() {
-    GoSlice hello;
-    unsigned char h[] = "{\"code\": 1, \"msg\": \"success\", \"data\": \"success\"";
-    hello.data = &h;
-    hello.len = sizeof(h);
-
-    GoString result;
-    result = parseJSON(hello);
-    printf("%s", result.p);
+    char *h = "{\"code\": 1, \"msg\": \"success\", \"data\": \"success\"}";
+    char *result;
+    result = parseJSON(h);
+    printf("%s", result);
     return 0;
 }
