@@ -2,7 +2,7 @@
 
 1. 使用 python 调用 go 语言包；
 2. 使用 c 调用 go 语言包；
-
+3. python 编译 C 包；
 
 ## Reference
 
